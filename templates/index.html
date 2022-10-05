@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ page_title }}</title>
+</head>
+<body>
+<ul>
+    <li>
+        <a href="{% url 'login' %}">LOGIN</a>
+    </li>
+    <li>
+        <a href="{% url 'logout' %}">LOGOUT</a>
+    </li>
+
+</ul>
+
+<h3>Halo: {{user}}</h3>
+</body>
+</html>
