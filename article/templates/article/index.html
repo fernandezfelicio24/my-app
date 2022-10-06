@@ -7,14 +7,9 @@
 <body>
 <ul>
     <li>
-        <a href="{% url 'article:index' %}">Article</a>
+        <a href="{% url 'index' %}">HOME</a>
     </li>
-    <li>
-        <a href="{% url 'logout' %}">LOGOUT</a>
-    </li>
-
 </ul>
-
-<h3>Halo: {{user}}</h3>
+{{ page_title }}
 </body>
 </html>

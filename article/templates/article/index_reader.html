@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ page_title }}</title>
+</head>
+<body>
+<ul>
+    <li>
+        <a href="{% url 'index' %}">HOME</a>
+    </li>
+    <li>
+        <a href="{% url 'article:addArticle' %}">Add Article</a>
+    </li>
+
+     <li>
+        <a href="{% url 'article:addArticle2' %}">Add Article 2</a>
+    </li>
+</ul>
+{{ page_title }}
+<h3>WELCOME {{ user }}</h3>
+<h2>Feel free to read our article</h2>
+</body>
+</html>
